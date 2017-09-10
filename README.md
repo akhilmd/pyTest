@@ -25,6 +25,11 @@ $ pipenv shell
 (subshell) $ exit
 ```
 For a better subshell experience in Ubuntu, append ```$(((SHLVL>1))&&echo "\[\033[1;31m\][$SHLVL]\[\033[0m\] ")``` to the ```PS1``` environment variable.
+#### Test
+Make sure to add tests for any new additions.
+```
+$ ./tools/test-all
+```
 #### Distribute
 To make a distributable ```.whl``` file for installation on other systems, run the following.
 ```
