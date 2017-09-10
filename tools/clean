@@ -3,4 +3,5 @@
 rm -r dist/
 rm -r build/
 rm -r pyTest.egg-info/
+find . -name __pycache__ -exec rm -r {} \;
 
