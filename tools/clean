@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+rm -r dist/
+rm -r build/
+rm -r pyTest.egg-info/
+
